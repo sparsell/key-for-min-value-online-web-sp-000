@@ -3,13 +3,13 @@
 
 def key_for_min_value(hash)
  min_value = 1000 #set a min value to start comparing
- key_for_min_value = nil
+ 
   hash.each do |key, value|
     if min_value >= value
       min_value = value
       #key_min_value = key #update min val and key when find a lower one through iteration
     else
-      return value
+      min_value = min_value
     end
     return key
   end
