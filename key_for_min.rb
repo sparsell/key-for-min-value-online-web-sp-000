@@ -9,7 +9,7 @@ else
   hash.each do |key, value|
     if value <= min_value
       min_value = value
-     
+
     else
       min_value = min_value
     end
