@@ -11,7 +11,7 @@ def key_for_min_value(hash)
       min_value = value
       #key_min_value = key #update min val and key when find a lower one through iteration
     else
-      
+
     end
     return key
   end
