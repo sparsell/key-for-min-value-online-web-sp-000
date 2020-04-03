@@ -15,7 +15,6 @@ else
     end
     return key
   end
-
 end
-  min_value = 1000
+
 end
