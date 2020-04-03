@@ -3,7 +3,9 @@
 
 def key_for_min_value(hash)
  min_value = 1000 #set a min value to start comparing
-
+if hash == {}
+return nil
+else
   hash.each do |key, value|
     if min_value >= value
       min_value = value
@@ -13,4 +15,5 @@ def key_for_min_value(hash)
     end
     return key
   end
+end
 end
